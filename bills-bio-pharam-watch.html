@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="This is an awesome website!">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Bill's BioPharma Watch</title>
+</head>
+<body style="background-color:lightblue;">
+
+  <div class="container mt-5 border-bottom border-secondary pb-3">
+    <div id="page-title">
+      <h1 class="my-3">Bill's BioPharma Watch</h1>
+    </div>
+
+    <ul class="nav nav-pills my-3">
+      <li class="nav-item"><a class="nav-link active" href="index.html" >Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="About.html" >About</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Month</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="September.html" >September</a>
+          <a class="dropdown-item" href="October.html" >October</a>
+          <a class="dropdown-item" href="November.html" >November</a>
+          <a class="dropdown-item" href="December.html" >December</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="WatchList.html">WatchList</a></li>
+      <li class="nav-item"><a class="nav-link" href="2021.html">2021</a></li>
+    </ul>
+  </div>
+
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="tradingview-widget-container" style="max-width: 720px;">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+          {"symbols":[{"description":"","proName":"NASDAQ:GILD"},{"description":"","proName":"HRMY"},{"description":"","proName":"ETON"},{"description":"","proName":"AQST"},{"description":"","proName":"BCRX"},{"description":"","proName":"ZSAN"},{"description":"","proName":"KMPH"},{"description":"","proName":"ADMP"},{"description":"","proName":"FBIO"},{"description":"","proName":"LQDA"},{"description":"","proName":"MNK"},{"description":"","proName":"NYSE:PFE"},{"description":"","proName":"SPPI"}],"colorTheme":"light","isTransparent":true,"displayMode":"adaptive","locale":"en"}
+        </script>
+      </div>
+    </div>
+
+    <p class="text-center" style="color:red;"> Last Updated 9/30/2020 </h1>
+    <p class="text-center"><img width="1000" src="maxresdefault.jpg" /></p>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
